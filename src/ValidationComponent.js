@@ -25,6 +25,7 @@ export default class ValidationComponent extends React.PureComponent {
   }
 
   isValid(rules) {
+    if (rules.length == 0) { return true }
     const { component, validators, errorMessages } = this.props;
     const value = component.props.value;
     return validators.every((validator, index) => {
