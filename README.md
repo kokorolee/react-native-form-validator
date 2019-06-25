@@ -44,7 +44,7 @@ Example Component:
 ### Usage
 
 ````javascript
-import { ValidationForm, ValidationComponent } from "react-native-validator";
+import { ValidationForm, ValidationComponent } from "react-native-validation";
 
 constructor(props, context) {
   super(props, context);
